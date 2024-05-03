@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1> أنشاء حساب جديد</h1>
+    </header>
+    <div class="container">
+        <form action="#" method="POST" class="register-form">
+            <div class="userDiv">
+                <i class="fas fa-user user"></i>
+            </div>
+            <!-- <h2>أنشاء حساب جديد</h2> -->
+            <div class="form-group">
+                <label for="username">الاسم</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">الايميل</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">كلمة السر</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+           
+            <div class="form-group">
+                <label for="Gender">النوع</label><br>
+                <label for="password">ذكر</label>
+                <input type="radio" id="Gender" name="gender" required>
+                <label for="password">انثي</label>
+                <input type="radio" id="Gender" name="gender" required>
+            </div>
+            <button type="submit" class="form-group">أنشاء حساب</button>
+        </form>
+    </div>
+</body>
+</html>
